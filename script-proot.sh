@@ -19,7 +19,7 @@ systemctl start pufferpanel
 echo Done patching and installing pufferpanel
 
 echo Adding user
-pufferpanel user add
+pufferpanel user add --admin --email admin@is-a.space --password adminadmin --name admin
 echo Done adding user if you done the inputs
 
 echo Installing ported / portip
@@ -119,7 +119,7 @@ esac
 
 chmod +x /bin/portip
 echo Done installing ported / portip
-echo Now do `port add 8080` to get port 8080 and access your panel
+echo Now do port add 8080 to get port 8080 and access your panel
 
 
 
