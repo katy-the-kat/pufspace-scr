@@ -116,7 +116,7 @@ esac
 
 chmod +x /bin/portip
 echo Done installing ported / portip
-echo Now do `port add 8080` to get port 8080 and access your panel
+echo Now do port add 8080 to get port 8080 and access your panel
 
 
 
