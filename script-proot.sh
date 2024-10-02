@@ -22,10 +22,6 @@ echo Adding user
 pufferpanel user add
 echo Done adding user (if you done the inputs)
 
-echo Adding user
-pufferpanel user add
-echo Done adding user (if you done the inputs)
-
 echo Installing ported / portip
 echo '#!/bin/bash
 
