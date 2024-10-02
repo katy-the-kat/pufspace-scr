@@ -1,4 +1,4 @@
-echo Pufferpanel install script by is-a.space (Owner)
+echo Pufferpanel install script by is-a.space Owner
 echo discord.gg/hetzner !
 
 echo Installing curl
@@ -17,7 +17,7 @@ echo Done installing pufferpanel
 
 echo Adding user
 pufferpanel user add
-echo Done adding user (if you done the inputs)
+echo Done adding user if you done the inputs
 
 echo Installing ported / portip
 echo '#!/bin/bash
