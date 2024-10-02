@@ -119,7 +119,9 @@ esac
 
 chmod +x /bin/portip
 echo Done installing ported / portip
-echo Now do port add 8080 to get port 8080 and access your panel
+echo Now do 
+echo portip add 8080
+echo to get port 8080 and access your panel
 echo Admin user is password adminadmin and email admin@is-a.space . You can change creds in panel
 
 
