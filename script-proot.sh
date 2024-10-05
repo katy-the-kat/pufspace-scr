@@ -11,9 +11,10 @@ echo Done adding repo
 
 echo Installing pufferpanel
 curl -o /bin/systemctl https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py
-apt-get install -y pufferpanel > /dev/null
+apt-get install -y pufferpanel python3-pip > /dev/null
 echo Patching systemctl and starting services
 curl -o /bin/systemctl https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py
+chmod +x /bin/systemctl
 systemctl enable pufferpanel
 systemctl start pufferpanel
 echo Done patching and installing pufferpanel
