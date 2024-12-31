@@ -6,7 +6,7 @@ apt-get install -y curl wget > /dev/null
 echo Done installing curl and wget
 
 echo Adding repo
-curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash > /dev/null
+curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh?any=true | sudo bash > /dev/null
 echo Done adding repo
 
 echo Installing pufferpanel
